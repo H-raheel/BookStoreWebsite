@@ -1,0 +1,94 @@
+/* Navbar.css */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e4a554;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navigation h1 {
+  margin:0;
+  margin-right: 10px;
+}
+
+.nav-link,
+.cart-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  margin-right: 25px;
+}
+
+.cart-link {
+  background-color: #333;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: auto; /* Move the cart link and icon to the right */
+  margin-right: 40px; /* Add some margin to the left of the cart link */
+}
+
+.nav-link {
+  margin-right: 15px; /* Add some margin between the links */
+}
+
+.drop {
+  position: relative;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropButton {
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropButton:hover {
+  background-color: #555;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  width: 250px; /* Adjust the width as needed */
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow-y: scroll;
+  
+}
+
+.list a {
+  padding: 12px 16px;
+  margin-bottom: 5px; /* Add space below each item */
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.list a:hover {
+  background-color: #555;
+}
+
+.space{
+  margin-bottom: 15px;
+}

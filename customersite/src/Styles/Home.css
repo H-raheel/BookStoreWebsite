@@ -1,0 +1,32 @@
+/* Styles/Home.css */
+body {
+    margin: 0;
+    overflow-x: hidden;
+    }
+    
+.homeContainer {
+    /* Add styles for the home container */
+    display: flex;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .nav {
+    /* Add styles for the navigation bar */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .display {
+    /* Add styles for the display component */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+  }
+  .sBar{
+    margin-top: 35px;
+    margin-left:-20px;
+  }
+  .cont{display: flex;}
+  

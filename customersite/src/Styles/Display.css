@@ -1,0 +1,46 @@
+/* Display.css */
+
+.displayContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: center; /* Center items horizontally */
+    max-width: 100%; /* Set max-width to prevent horizontal scrolling */
+}
+
+.book {
+    height: 300px;
+    width: 300px; /* Adjust the width to control the spacing between books */
+    margin: 10px; /* Adjust the margin to control the spacing around each book */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border for a visual separation between books */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.details {
+    margin-top: 10px; /* Adjust the margin between book details */
+    text-align: center;
+}
+.viewbutton{
+    border-color: black;
+    border-radius: 20px;
+    background-color: chocolate;
+    margin-right: 10px;
+   
+}
+.cartbutton{
+    border-color: black;
+    border-radius: 20px;
+    background-color: chocolate;
+    
+}
+/* Add more styles as needed */
